@@ -1,0 +1,325 @@
+
+/*---- GLOBAL----*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;}
+
+a:link {color:rgb(255, 232, 232);}
+a:visited {color:rgb(255, 255, 255);}
+a:active {color:rgb(240, 208, 208);}
+
+/*---- FIN GLOBAL----*/
+
+/*---- HEADER----*/
+header{
+    font-size: 40px;
+    color: #000000;
+    background-color: rgb(170, 255, 255);
+    text-align: center;
+    padding: 20px; 
+    background-image: url("https://i.pinimg.com/originals/af/47/61/af476162f7db73ddd19bbbe52dd6c25c.jpg");   
+}
+
+.logo{
+    padding-top: 30px;
+    width: 20%;
+}
+
+/*---- FIN HEADER----*/
+
+/*---- BARRA DE MENU ----*/
+nav{
+    overflow: hidden;
+    background-color: rgb(121, 89, 47);
+    position: fixed;
+    width: 100%;  
+}
+
+nav a{
+    float: left;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px 50px;
+    text-decoration: none;  
+    border-right:1px solid rgb(148, 120, 80);
+}
+
+nav a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(207, 99, 99);
+}
+
+.actual{
+    background-color: #bdba2a;
+}
+
+/*---- FIN BARRA DE MENU ----*/
+
+main{
+    padding: 20px 80px;
+    background-image: url("https://i.postimg.cc/pXCkz6sf/backgroundhuellas.png");
+}
+
+
+/*---- FOOTER ----*/
+  footer{
+    background-image: url("https://i.pinimg.com/originals/af/47/61/af476162f7db73ddd19bbbe52dd6c25c.jpg");
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    color: #000000; 
+}
+
+/*---- FIN FOOTER ----*/
+
+/*------------------------------------------------------------------------------------------------------------------*/
+
+/*-------- 01 PAGINA INDEX --------*/
+
+/*----  información general del animal ----*/                
+div.texto{
+    text-align: justify;
+    width: 90%;
+    margin: 20px auto;
+    color: rgb(231, 229, 229);
+    background-color: rgba(141, 105, 58, 0.952);
+    padding: 15px;
+}
+
+div.texto img.derecha{
+    float: right;
+    margin-left: 15px;
+}
+
+div.texto img.izquierda{
+    float: left;
+    margin-right: 15px;
+}
+
+div img.centro{
+    text-align: center;
+    margin: 10px;  
+}
+
+.detalle-borde{
+border: 1px solid rgba(0, 0, 0, 0.952);
+}
+  
+div.reset {
+    clear: both;
+}
+
+/*---- FIN  información general del animal ----*/  
+
+/*-------- 01 FIN PAGINA INDEX --------*/
+
+
+
+/*-------- 02 PAGINA DETALLES --------*/
+.main{
+    margin: 40px auto;
+    width: 500px;
+    background-color: rgba(141, 105, 58, 0.952);
+    padding: 5px;
+    border:1px solid ;
+    border-collapse: collapse;
+}
+
+table{
+    background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+	width: 100%;
+}
+  
+th, td{
+	padding: 5px;
+}
+
+td {
+    border:1px solid ;
+    border-collapse: collapse;
+}
+  
+.datos{
+    text-align: justifiy;
+    background-color: #bdba2a;
+    font-weight: bold;
+    margin: 5;
+}
+  
+.info{
+    background-color: #ccccb2;
+    text-align: justify;
+}
+
+tr:hover td{
+	background-color: rgba(141, 105, 58, 0.952);
+	color: white;
+}
+
+/*-------- 02 FIN PAGINA DETALLES --------*/
+
+
+
+/*-------- 03 PAGINA GALERIA --------*/
+
+.linea{
+    background: rgba(141, 105, 58, 0.952);
+    height: 3px;
+    width: 100%;
+    display: block;
+}
+
+.foto1{
+    border: 5px solid rgba(141, 105, 58, 0.952);
+    text-align: center;
+    width: 30%;
+    margin: 20px 10px ;
+}
+
+div{
+    text-align: center;
+}
+
+/*-------- 03 FIN PAGINA GALERIA --------*/
+
+/*-------- 04 PAGINA CONTACTO --------*/
+.container-contacto{
+    width: 100%;
+    margin-top: 50px;
+    background-color: #b8c3d152;
+}
+        
+.content-contacto{
+    width: 100%;
+    max-width: 1110px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:70px;
+    color: #434343;
+}
+
+.content-contacto h2{
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.info-contacto p{
+    line-height: 1.5;
+    font-size: 17px;
+    margin-bottom: 35px;
+}
+
+.info-contacto a{
+    text-decoration: none;
+    color: #434343;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+}
+
+.info-contacto a i{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50%;
+    border: 2px solid rgb(141, 105, 58);
+    color: rgb(141, 105, 58);
+    margin-right: 15px;
+}
+
+.formulario .campo{
+    width: 100%;
+    padding: 13px 5px;
+    font-size: 16px;
+    margin-bottom: 13px;
+    border-radius: 2px;
+    border: 1px solid #dbdbdb;
+    outline: 0px;
+}
+        
+.formulario .box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:13px;
+}
+
+.formulario textarea{
+    max-height: 150px;
+    min-height: 150px;
+}
+        
+.formulario .boton{
+    border: none;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    background: rgb(141, 105, 58);
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all 300ms ease;
+    outline: 0px;
+    will-change: transform;
+}
+
+.formulario .boton:active{
+    transform: scale(0.95);
+}
+    
+@media screen and (max-width:900px){
+.content-contacto{
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap:20px;
+}}
+            
+.formulario .box{
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap:0px;
+}
+
+.formulario textarea{
+    max-height: 120px;
+    min-height: 120px;
+}
+
+
+        
+/*-------- 04 FIN PAGINA CONTACTO --------*/
+
+.btn-wsp{
+    position:fixed;
+    width:60px;
+    height:60px;
+    line-height: 63px;
+    bottom:25px;
+    right:25px;
+    background:rgba(141, 105, 58, 0.952);
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+}
+.btn-wsp:hover{
+    background: rgb(207, 99, 99);
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+.btn-wsp{
+    width:63px;
+    height:63px;
+    line-height: 66px;
+}}
